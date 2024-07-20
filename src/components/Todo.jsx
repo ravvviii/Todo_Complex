@@ -16,11 +16,11 @@ function Todo({ todos }) {
                 </div>
 
                 <div className='ml-auto flex space-x-2'>
-                  <button className='bg-blue-500 text-white px-3 py-1 rounded flex items-center'>
+                  <button className='bg-blue-600 text-white px-3 py-1 rounded flex items-center'>
                     {/* <DeleteIcon className='mr-1' /> Include the Delete icon */}
                     Delete
                   </button>
-                  <button className='bg-green-500 text-white px-3 py-1 rounded flex items-center'>
+                  <button className='bg-green-600 text-white px-3 py-1 rounded flex items-center'>
                     {/* <EditIcon className='mr-1' /> Include the Edit icon */}
                     Modify
                   </button>
